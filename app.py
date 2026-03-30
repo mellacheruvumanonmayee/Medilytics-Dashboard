@@ -1,11 +1,3 @@
-import subprocess
-import sys
-
-subprocess.check_call([sys.executable, "-m", "pip", "install", "plotly", "scikit-learn", "pandas", "numpy", "joblib"])
-
-
-
-
 import streamlit as st
 
 st.set_page_config(
